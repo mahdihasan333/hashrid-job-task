@@ -1,3 +1,69 @@
+/* Comman */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Orbitron', sans-serif;
+    /* background-color: #12121373; */
+    background: black;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Header Section */
+.nav-bar{
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.launch-btn{
+    width: 195px;
+    height: 51px;
+    border-radius: 5px;
+    background: rgb(64, 221, 227);
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 23px;
+}
+
+/* Main Section */
+
+
+/* Meet Hasrid Section */
+.meet-section{
+
+}
+
+.meet-container{
+    width: 1532px;
+    height: 390.21px;
+    left: 194.45px;
+    top: 1069.37px;
+}
+
+
+/* Footer Section */
+.footer-section{
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-right{
+    display: flex;
+    gap: 30px;
+}
+
+.footer-link 
+
 .footer-right a i{
     font-size: 16px;
 }
