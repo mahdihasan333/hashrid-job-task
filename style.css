@@ -3,6 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 body{
@@ -23,6 +24,11 @@ a{
     justify-content: space-between;
     align-items: center;
 }
+
+.logo img {
+    width: 200px;
+}
+
 .launch-btn{
     width: 195px;
     height: 51px;
@@ -40,30 +46,78 @@ a{
 
 /* Meet Hasrid Section */
 .meet-section{
-
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+    background-color: #0f0f0f;
 }
 
 .meet-container{
-    width: 1532px;
-    height: 390.21px;
-    left: 194.45px;
-    top: 1069.37px;
+    width: 700px;
+    background-color: #161616;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 25px grba(0, 255, 255, 0,0.05);
+    border: 1px solid #1f1f1f;
+    text-align: center;
 }
 
 
 /* Footer Section */
-.footer-section{
-    font-size: 15px;
-    display: flex;
-    justify-content: space-between;
-}
-.footer-right{
-    display: flex;
-    gap: 30px;
+.footer-section {
+  background-color: #0c0c0c;
+  font-size: 15px;
+  display: flex;
 }
 
-.footer-link 
+.footer-container{
+    display: flex;
+    padding: 10px 40px;
+}
 
-.footer-right a i{
-    font-size: 16px;
+/* .footer-left p {
+  margin: 0;
+} */
+
+.footer-right {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-link {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.footer-link p {
+  transition: color 0.3s;
+}
+
+.footer-link p:hover {
+  color: #00ffff;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: end;
+  gap: 5px;
+}
+
+.footer-social img{
+    width: 40px;
+    display: flex;
+    gap: 10px;
+}
+
+
+
+.footer-social a i {
+  font-size: 18px;
+  color: #e0e0e0;
+  transition: color 0.3s;
+}
+
+.footer-social a:hover i {
+  color: #00ffff;
 }
