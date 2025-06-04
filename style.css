@@ -184,6 +184,40 @@ a{
 
 
 
+/* How To Use Section */
+.how-to-use-container{
+  border: none;
+  box-shadow: none;
+  background: none;
+}
+
+.how-to-use-description{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.steps-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  align-items: center;
+}
+
+.step-card{
+  display: flex;
+  flex-direction: column;
+  padding: 30px 5px;
+  align-items: left;
+}
+
+.step-card div{
+  padding-left: 15px;
+}
+
+
+
+
+
 
 
 
