@@ -34,6 +34,8 @@ a{
 
 .description{
   font-size: 20px;
+  margin-top: 20px !important;
+  margin-bottom: 40px !important;
 }
 
 .title {
@@ -245,6 +247,84 @@ a{
   margin-bottom: 30px;
 }
 
+/* Ready */
+.ready-section {
+  position: relative;
+  width: 80%;
+  margin: 120px auto 100px;
+  text-align: center;
+  border: 2px dashed white;
+  
+}
+
+.ready-text {
+  font-size: 55px;
+  text-align: left;
+  font-weight: 600;
+  line-height: 1.4;
+  background: linear-gradient(133.06deg, #292929, #ffffff, #676767, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  z-index: 1;
+  position: relative;
+  
+}
+
+
+.input-container {
+  position: absolute;
+  left: 80%;
+  width: 370px;
+  bottom: -20px;
+  transform: translateX(-50%);
+  display: flex;
+  background-color: #0d0d0d;
+  border: 2px solid #00f0ff;
+  border-radius: 8px;
+  padding: 5px;
+  z-index: 2;
+}
+
+.ready-input {
+  padding: 10px 13px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+  width: 250px;
+}
+
+.ready-input::placeholder {
+  color: #888;
+}
+
+.ready-btn {
+  padding: 12px 16px;
+  background-color: #00f0ff;
+  color: #000;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.ready-btn:hover {
+  background-color: #00c0cc;
+}
+
+
+/* FAQs Section */
+.faq-container{
+  border: none;
+  box-shadow: none;
+  background: none;
+}
+
 
 
 
@@ -257,13 +337,18 @@ a{
 
 .footer-container{
     display: flex;
-    padding: 10px 40px;
+    justify-content: space-between !important;
+    align-items: center;
+    padding: 10px;
 }
+
+
 
 
 .footer-right {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .footer-link {
