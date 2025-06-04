@@ -215,10 +215,35 @@ a{
 }
 
 
+/* Partners Section */
+.partners-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.partners-card{
+  width: 100%;
+  border: 1px solid grb(64, 64, 64);
+  border: 10px;
+  box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(15px);
+  background: rgba(18, 18, 19, 0.4);
+  padding: 10px 20px;
+}
 
 
+.partners-card img{
+  width: 250px;
+  padding: 10px;
+}
 
-
+.partners-desc{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
 
 
 
