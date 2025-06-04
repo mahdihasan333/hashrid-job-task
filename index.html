@@ -3,6 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Hashrid is a gamified Web3 social platform where users create AI personas, battle memes, earn XP, and monetize influence."
+    />
+
     <link rel="stylesheet" href="./style.css" />
     <link
       rel="stylesheet"
@@ -29,7 +34,7 @@
     <!-- Main Section -->
     <main>
       <!-- Meet Hasrid Section -->
-      <section className="meet-section">
+      <section class="meet-section">
         <div class="container meet-container">
           <button class="title meet-title">Meet Hashrid</button>
           <p class="description meet-desc-1">
@@ -249,23 +254,140 @@
             building for creators, culture drivers, and crypto-native
             communities.
           </p>
+
+          <div class="faq-grid">
+            <!-- FAQ Item 1 -->
+            <div class="faq-item active">
+              <div class="faq-question">
+                <span>Do I need crypto to use Hashrid?</span>
+                <span class="faq-toggle close">+</span>
+              </div>
+              <div class="faq-answer">
+                No. You can join with just a wallet and start earning XP by
+                posting, roasting, and participating. No tokens or crypto
+                purchases are required to use core features.
+              </div>
+            </div>
+            <!-- FAQ Item 2 -->
+            <div class="faq-item">
+              <div class="faq-question">
+                <span
+                  >What makes Hashrid different from X, Reddit or Discord?</span
+                >
+                <span class="faq-toggle">+</span>
+              </div>
+              <div class="faq-answer">
+                Hashrid is a Web3-native platform designed for community-driven
+                engagement. Unlike X, Reddit, or Discord, it rewards users with
+                XP for their contributions and offers on-chain features like NFT
+                badges, gated experiences, and monetization based on activity.
+              </div>
+            </div>
+
+            <!-- FAQ Item 3 -->
+            <div class="faq-item">
+              <div class="faq-question">
+                <span>What are NFT badges for?</span>
+                <span class="faq-toggle">+</span>
+              </div>
+              <div class="faq-answer">
+                NFT badges represent a user’s achievements and milestones.
+                They’re more than collectibles — they can unlock exclusive
+                access to voice portals, events, or community features, and
+                showcase your journey on-chain.
+              </div>
+            </div>
+
+            <!-- FAQ Item 4 -->
+            <div class="faq-item">
+              <div class="faq-question">
+                <span>How is XP earned?</span>
+                <span class="faq-toggle">+</span>
+              </div>
+              <div class="faq-answer">
+                XP is earned through multiple actions: posting content,
+                receiving likes or replies, participating in Voice Portals,
+                completing missions or bounties, and being active in the
+                community. The more value you add, the more XP you gain.
+              </div>
+            </div>
+
+            <!-- FAQ Item 5 -->
+            <div class="faq-item">
+              <div class="faq-question">
+                <span>Is there a token involved?</span>
+                <span class="faq-toggle">+</span>
+              </div>
+              <div class="faq-answer">
+                There is no native token required to use the platform at this
+                stage. However, in the future, a token may be introduced to
+                enhance utility, reward loyal users, and support the economy
+                around creators and communities.
+              </div>
+            </div>
+
+            <!-- FAQ Item 6 -->
+            <div class="faq-item">
+              <div class="faq-question">
+                <span>What are XP-Gated Voice Portals?</span>
+                <span class="faq-toggle">+</span>
+              </div>
+              <div class="faq-answer">
+                Voice Portals are live audio rooms that require a certain XP
+                level to enter. This ensures quality interactions by rewarding
+                active members with access to meaningful discussions, community
+                calls, or exclusive sessions.
+              </div>
+            </div>
+
+            <!-- FAQ Item 7 -->
+            <div class="faq-item">
+              <div class="faq-question">
+                <span>Can I really earn money from memes?</span>
+                <span class="faq-toggle">+</span>
+              </div>
+              <div class="faq-answer">
+                Yes. Creators who generate high-engagement memes and posts can
+                earn XP, gain visibility, and get selected for rewards, NFT
+                drops, or bounties. Hashrid is designed to empower creators
+                through decentralized rewards.
+              </div>
+            </div>
+
+            <!-- FAQ Item 8 -->
+            <div class="faq-item">
+              <div class="faq-question">
+                <span>Can I use Hashrid without connecting my wallet?</span>
+                <span class="faq-toggle">+</span>
+              </div>
+              <div class="faq-answer">
+                You can browse content anonymously, but to fully experience the
+                platform — like posting, earning XP, and accessing features —
+                you’ll need to connect a crypto wallet. It’s simple and takes
+                just a few seconds.
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
-      
+      <section>
+        <div class="ready-section">
+          <h3 class="ready-text">
+            Ready to earn your place in the meme metaverse?
+          </h3>
+          <div class="input-container">
+            <input
+              type="email"
+              placeholder="drop an email"
+              class="ready-input"
+            />
+            <button class="ready-btn">Get Notified</button>
+          </div>
+        </div>
+      </section>
     </main>
 
-    <section>
-      <div class="ready-section">
-        <h3 class="ready-text">
-          Ready to earn your place in the meme metaverse?
-        </h3>
-        <div class="input-container">
-          <input type="email" placeholder="drop an email" class="ready-input" />
-          <button class="ready-btn">Get Notified</button>
-        </div>
-      </div>
-    </section>
     <!-- Footer Section -->
     <footer class="footer-section">
       <div class="footer-container">
@@ -286,5 +408,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="./script.js"></script>
   </body>
 </html>
