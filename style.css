@@ -161,6 +161,13 @@ a{
 }
 
 
+.header-input {
+  margin-left: -300px;
+}
+
+
+
+
 .xp-bar {
   width: 80%;
   height: 12px;
@@ -430,7 +437,7 @@ a{
 .input-container {
   position: absolute;
   left: 80%;
-  width: 370px;
+  width: 380px;
   bottom: -20px;
   transform: translateX(-50%);
   display: flex;
