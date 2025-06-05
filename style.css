@@ -522,23 +522,22 @@ background: rgba(18, 18, 19, 0.45);
 }
 
 .faq-item.active .faq-answer {
-  max-height: 500px; /* enough for your content */
+  max-height: 500px;
+  text-align: left;
 }
 
 .faq-item.active .faq-toggle {
   content: "×";
   transform: rotate(45deg);
-  color: red;
 }
 
 
 
 /* Footer Section */
-.footer-section {
+/* .footer-section {
   background-color: #0c0c0c;
   font-size: 15px;
-  display: flex;
-}
+} */
 
 .footer-container{
     display: flex;
@@ -552,12 +551,14 @@ background: rgba(18, 18, 19, 0.45);
 
 .footer-right {
   display: flex;
+  gap: 40px;
   justify-content: space-between;
   align-items: center;
 }
 
 .footer-link {
   display: flex;
+  gap: 30px;
   justify-content: space-between;
   list-style-type: none;
 }
